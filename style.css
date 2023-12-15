@@ -8,11 +8,6 @@
     src: url(Fonts/Glass_Antiqua/GlassAntiqua-Regular.ttf);
 }
 
-@font-face {
-    font-family: "Bondoni_Moda";
-    src: url(Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf);
-}
-
 header ul {
     list-style-type: none;
     margin: 0;
@@ -54,8 +49,24 @@ body {
     color: #000000;
 }
 
-section {
-    margin:2em;
+main a {
+    text-decoration: none;
+    background: #cbaaf2;
+    padding: 0.5em;
+    margin-left: 18em;
+    margin-right: 18em;
+    border-radius: 0.2em;
+    font-family: Glass Antiqua;
+    color: #000000;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    transition: all 200ms ease;
+}
+
+main a:hover {
+    background-color: #b78aed;
+    transform: scale(1.2);
 }
 
 h1 {
@@ -72,6 +83,7 @@ h2 {
     font-family: Glass Antiqua;
     font-size: 3.5em;
     text-align: center;
+    background-color: #a598e3;
 }
 
 h3 {
@@ -82,22 +94,24 @@ h3 {
 
 p {
     font-family: Glass Antiqua;
-    font-size: 20px;
+    font-size: 1.4em;
     text-align: center;
+    margin: 2em;
 }
 
 .img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 0.5em;
 }
-
 
 footer {
     display:flex;
     justify-content: center;
     margin:0;
     margin-bottom:0;
+    margin-top: 2em;
     background-color: #a8c0ea;
     color: #102445;
     text-align: center;
